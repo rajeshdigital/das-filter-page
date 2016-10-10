@@ -1,0 +1,23 @@
+/* custom responsive styles */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .header-global .header-global__title,
+  .header-global .header-global__subtitle {
+    padding-left: 10px;
+  }
+  .header-global .header-global__title {
+    width: 100%;
+    float: left;
+    text-align: left;
+  }
+  .header-global .header-global__subtitle {
+    width: 100%;
+    float: left;
+    text-align: left;
+  }
+  .column-one-third #return-to-top {
+    display: none;
+  }
+}
+
+
