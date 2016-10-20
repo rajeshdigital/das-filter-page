@@ -29,12 +29,10 @@ gulp.task('uglify', function() { // minify js
 gulp.task('monitor', function() {
   gulp.watch('public/scss/*.scss', ['scsscompile']); // running scss compiler on changes to scss 
   gulp.watch('public/stylesheets/*.css', ['minifycss']); // changes to css will then minify into this file
-  gulp.watch('public/javascripts/*.js', ['uglify']); // changes to JS files will also get compressed 
-
- 
+  gulp.watch('public/javascripts/*.js', ['uglify']); // changes to JS files will also get compressed  
 });
 
-gulp.task('default', ['monitor']);
+gulp.task('default', ['monitor']); // all tasks running
 
 
 // express server
