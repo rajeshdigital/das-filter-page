@@ -98,7 +98,15 @@
                         </ul>
                      </div>
 
-                   
+                     <div class="govuk-option-select filter-field-text">
+                        <div class="container-head">
+                           <label class="option-select-label heading-medium" for="keywords">
+                           Keywords
+                           </label>
+                        </div>
+                        <input type="text" name="q" id="keywords" value="" maxlength="200">
+                     </div>
+                     <input type="hidden" name="lot" value="paas" />
                      <div class="govuk-option-select" >
                         <div class="container-head js-container-head">
                            <div class="option-select-label">Pricing</div>
@@ -106,7 +114,7 @@
                         <div class="options-container" id="">
                            <div class="js-auto-height-inner">
                               <label for="freeOption">
-                              <input name="freeOption" value="true" id="freeOption" type="checkbox" aria-controls="">
+                              <input name="freeOption" value="true" id="freeOption" type="checkbox" aria-controls="" checked="checked">
                               Free option
                               </label>
                               <label for="trialOption">
@@ -145,7 +153,6 @@
                            </div>
                         </div>
                      </div>
-
                      <div class="govuk-option-select" >
                         <div class="container-head js-container-head">
                            <div class="option-select-label">Service management</div>
@@ -175,8 +182,7 @@
                            </div>
                         </div>
                      </div>
-
-                     <!--<div class="govuk-option-select" >
+                     <div class="govuk-option-select" >
                         <div class="container-head js-container-head">
                            <div class="option-select-label">Datacentre tier</div>
                         </div>
@@ -278,7 +284,7 @@
                               </label>
                            </div>
                         </div>
-                     </div> -->
+                     </div>
                      <button class="button-save" type="submit">Filter</button>
                   </form>
                </section>
@@ -403,7 +409,8 @@
          <!-- govuk_elements js -->
          <script src="javascripts/template/details.polyfill.js"></script>
          <!-- custom scripts -->
-           <script src="javascripts/main.js"></script>
+           <script src="javascripts/application.js"></script>
+         <script src="javascripts/main.js"></script>
          <script>if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '');</script>
       </body>
    </html>
