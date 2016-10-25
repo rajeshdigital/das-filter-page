@@ -7361,17 +7361,50 @@ em.search-result-highlighted-text {
 
 }
 
-
 .govuk-option-select .container-head {
     padding-left: 5px;
     background:url(../images/option-select-toggle-sprite.png) no-repeat right 5px;
     cursor: pointer;
     display: block;
     position: relative;
-  
-    
+     
+}
+
+.govuk-option-select .showHide {
+	background:url(../images/option-select-toggle-sprite.png) no-repeat; 
+    background-position: right -77px;
+    cursor: pointer;
+    display: block;
+    position: relative;
 }
 
 .govuk-option-select .hideOptions{
 	display:none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

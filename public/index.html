@@ -63,19 +63,14 @@
             </div>
          </header>
          <div id="global-header-bar"></div>
+        
+
          <main class="elements-index" id="content" role="main" tabindex="-1">
             <header>
                <h1 class="heading-xlarge">Search results</h1>
             </header>
+            
             <div class="grid-row">
-              
-              
-
-
-
-
-
-
                <!-- filters section -->
                <section class="column-one-third search-page-filters" aria-label="Search filters">
                   <form action="/g-cloud/search" method="get">
@@ -83,17 +78,17 @@
                         <h2 class="heading-small">Choose a category</h2>
                         <ul>
                            <li>
-                              <a href="/g-cloud/search?q=">All categories</a>
+                              <a href="#">All categories</a>
                            </li>
                            <li>
-                              <a href="/g-cloud/search?q=&amp;lot=saas">Software as a Service</a>
+                              <a href="#">Software as a Service</a>
                            </li>
                         
                            <li>
-                              <a href="/g-cloud/search?q=&amp;lot=iaas">Infrastructure as a Service</a>
+                              <a href="#">Infrastructure as a Service</a>
                            </li>
                            <li>
-                              <a href="/g-cloud/search?q=&amp;lot=scs">Specialist Cloud Services</a>
+                              <a href="#">Specialist Cloud Services</a>
                            </li>
                         </ul>
                      </div>
@@ -176,117 +171,11 @@
                         </div>
                      </div>
 
-                     <!--<div class="govuk-option-select" >
-                        <div class="container-head js-container-head">
-                           <div class="option-select-label">Datacentre tier</div>
-                        </div>
-                        <div class="options-container" id="">
-                           <div class="js-auto-height-inner">
-                              <label for="datacentreTier-tia-942-tier-1">
-                              <input name="datacentreTier" value="tia-942 tier 1" id="datacentreTier-tia-942-tier-1" type="checkbox" aria-controls="">
-                              TIA-942 Tier 1
-                              </label>
-                              <label for="datacentreTier-tia-942-tier-2">
-                              <input name="datacentreTier" value="tia-942 tier 2" id="datacentreTier-tia-942-tier-2" type="checkbox" aria-controls="">
-                              TIA-942 Tier 2
-                              </label>
-                              <label for="datacentreTier-tia-942-tier-3">
-                              <input name="datacentreTier" value="tia-942 tier 3" id="datacentreTier-tia-942-tier-3" type="checkbox" aria-controls="">
-                              TIA-942 Tier 3
-                              </label>
-                              <label for="datacentreTier-tia-942-tier-4">
-                              <input name="datacentreTier" value="tia-942 tier 4" id="datacentreTier-tia-942-tier-4" type="checkbox" aria-controls="">
-                              TIA-942 Tier 4
-                              </label>
-                              <label for="datacentreTier-uptime-institute-tier-1">
-                              <input name="datacentreTier" value="uptime institute tier 1" id="datacentreTier-uptime-institute-tier-1" type="checkbox" aria-controls="">
-                              Uptime Institute Tier 1
-                              </label>
-                              <label for="datacentreTier-uptime-institute-tier-2">
-                              <input name="datacentreTier" value="uptime institute tier 2" id="datacentreTier-uptime-institute-tier-2" type="checkbox" aria-controls="">
-                              Uptime Institute Tier 2
-                              </label>
-                              <label for="datacentreTier-uptime-institute-tier-3">
-                              <input name="datacentreTier" value="uptime institute tier 3" id="datacentreTier-uptime-institute-tier-3" type="checkbox" aria-controls="">
-                              Uptime Institute Tier 3
-                              </label>
-                              <label for="datacentreTier-uptime-institute-tier-4">
-                              <input name="datacentreTier" value="uptime institute tier 4" id="datacentreTier-uptime-institute-tier-4" type="checkbox" aria-controls="">
-                              Uptime Institute Tier 4
-                              </label>
-                              <label for="datacentreTier-none-of-the-above">
-                              <input name="datacentreTier" value="none of the above" id="datacentreTier-none-of-the-above" type="checkbox" aria-controls="">
-                              None of the above
-                              </label>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="govuk-option-select" >
-                        <div class="container-head js-container-head">
-                           <div class="option-select-label">Networks the service is directly connected to</div>
-                        </div>
-                        <div class="options-container" id="">
-                           <div class="js-auto-height-inner">
-                              <label for="networksConnected-internet">
-                              <input name="networksConnected" value="internet" id="networksConnected-internet" type="checkbox" aria-controls="">
-                              Internet
-                              </label>
-                              <label for="networksConnected-public-services-network-(psn)">
-                              <input name="networksConnected" value="public services network (psn)" id="networksConnected-public-services-network-(psn)" type="checkbox" aria-controls="">
-                              Public Services Network (PSN)
-                              </label>
-                              <label for="networksConnected-government-secure-intranet-(gsi)">
-                              <input name="networksConnected" value="government secure intranet (gsi)" id="networksConnected-government-secure-intranet-(gsi)" type="checkbox" aria-controls="">
-                              Government Secure intranet (GSi)
-                              </label>
-                              <label for="networksConnected-police-national-network-(pnn)">
-                              <input name="networksConnected" value="police national network (pnn)" id="networksConnected-police-national-network-(pnn)" type="checkbox" aria-controls="">
-                              Police National Network (PNN)
-                              </label>
-                              <label for="networksConnected-new-nhs-network-(n3)">
-                              <input name="networksConnected" value="new nhs network (n3)" id="networksConnected-new-nhs-network-(n3)" type="checkbox" aria-controls="">
-                              New NHS Network (N3)
-                              </label>
-                              <label for="networksConnected-joint-academic-network-(janet)">
-                              <input name="networksConnected" value="joint academic network (janet)" id="networksConnected-joint-academic-network-(janet)" type="checkbox" aria-controls="">
-                              Joint Academic Network (JANET)
-                              </label>
-                              <label for="networksConnected-other">
-                              <input name="networksConnected" value="other" id="networksConnected-other" type="checkbox" aria-controls="">
-                              Other
-                              </label>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="govuk-option-select" >
-                        <div class="container-head js-container-head">
-                           <div class="option-select-label">Interoperability</div>
-                        </div>
-                        <div class="options-container" id="">
-                           <div class="js-auto-height-inner">
-                              <label for="apiAccess">
-                              <input name="apiAccess" value="true" id="apiAccess" type="checkbox" aria-controls="">
-                              API access available and supported
-                              </label>
-                              <label for="openStandardsSupported">
-                              <input name="openStandardsSupported" value="true" id="openStandardsSupported" type="checkbox" aria-controls="">
-                              Open standards supported and documented
-                              </label>
-                              <label for="openSource">
-                              <input name="openSource" value="true" id="openSource" type="checkbox" aria-controls="">
-                              Open-source software used and supported
-                              </label>
-                           </div>
-                        </div>
-                     </div> -->
+ 
                      <button class="button-save" type="submit">Filter</button>
                   </form>
                </section>
                
-
-
-
-
 
 
 
@@ -298,7 +187,7 @@
                   </p>
                   <div class="search-result">
                      <h2 class="search-result-title">
-                        <a href="/g-cloud/services/7735223088633971">Adapt Platform as a Service powered by Skyscape</a>
+                        <a href="#">Adapt Platform as a Service powered by Skyscape</a>
                      </h2>
                      <p class="search-result-supplier">
                         Adapt Services Limited
@@ -317,7 +206,7 @@
                   </div>
                   <div class="search-result">
                      <h2 class="search-result-title">
-                        <a href="/g-cloud/services/7338043876868331">Salesforce Heroku</a>
+                        <a href="#">Salesforce Heroku</a>
                      </h2>
                      <p class="search-result-supplier">
                         Salesforce.com
@@ -335,19 +224,7 @@
                      </ul>
                   </div>
                  
-               
-
-
-
-
-
-
-
-
-
-
-                
-               
+                        
                   
                   <nav role="navigation">
                      <ul class="previous-next-navigation">
@@ -360,18 +237,19 @@
                      </ul>
                   </nav>
                </section>
-
-
-
-
-
-
-
-
             </div> 
             <!-- #grid-row -->
          </main>
          <!-- / <main> #content -->
+
+
+
+
+
+
+
+
+         
          <footer class="group js-footer" id="footer" role="contentinfo">
             <div class="footer-wrapper">
                <div class="footer-meta">
