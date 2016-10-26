@@ -1,17 +1,16 @@
-In terminal run this :
+# Node using express engine for server behaviour
+  ==============================================
 
-Run > gulp 
+# SCSS folder for override styles
 
-Automates the following tasks : 
-==================================
+# main.js in Javascript folder for custom jquery
 
-gulp.task('monitor', function() {
+# Uses GULP for SASS compilation
 
-  gulp.watch('scss/*.scss', ['scsscompile']); // running scss compiler on changes to scss 
-  gulp.watch('stylesheets/*.css', ['minifycss']); // changes to css will then minify into this file
-  gulp.watch('javascripts/*.js', ['uglify']); // changes  to JS files will also get compressed 
-});
+# Template uses all css files in stylesheets folder
 
-# Starts express engine for server behaviour
+# Images/ folder for site images
 
-# visit : http://localhost:3000/ 
+# Run > npm install
+
+# visit : http://localhost:3000/ in browser 
