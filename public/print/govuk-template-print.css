@@ -88,8 +88,9 @@ select {
     vertical-align: middle; }
 
 /* hide the unnecessary page elements */
-body footer,
+body footer, body button,
 .visuallyhidden,
 #global-cookie-message,
 #skiplink-container {
   display: none !important; }
+
