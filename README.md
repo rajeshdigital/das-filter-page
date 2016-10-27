@@ -1,16 +1,14 @@
-# Node using express engine for server behaviour
-  ==============================================
+# Search filter page - Static page
+  ================================
 
-# SCSS folder for override styles
 
-# main.js in Javascript folder for custom jquery
+# stylesheets/main.css file (styles)
 
-# Uses GULP for SASS compilation
+# javascripts/main.js for expand collapse functionality ( jquery )
 
-# Template uses all css files in stylesheets folder
-
-# Images/ folder for site images
+# Images/ folder for search filter page (images)
 
 # Run > npm install
+===================
 
 # visit : http://localhost:3000/ in browser 
